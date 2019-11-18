@@ -2,15 +2,14 @@ package nuigalway.app;
 
 import org.joda.time.*;
 import java.util.ArrayList;
-import java.util.List;
 import nuigalway.app.Module;
 import nuigalway.app.Student;
 
 public class Course
 {
 	private String courseName;
-	private List<Module> modules = new ArrayList<Module>();
-	private List<Student> students = new ArrayList<Student>();
+	private ArrayList<Module> modules = new ArrayList<Module>();
+	private ArrayList<Student> students = new ArrayList<Student>();
 	private DateTime startDate;
 	private DateTime endDate;
 	

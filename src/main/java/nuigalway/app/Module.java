@@ -1,6 +1,6 @@
 package nuigalway.app;
 
-import java.util.*;
+import java.util.ArrayList;
 import nuigalway.app.Course;
 import nuigalway.app.Student;
 
@@ -8,8 +8,8 @@ public class Module
 {
 	private String moduleName;
 	private String moduleID;
-	private List<Student> students = new ArrayList<Student>();
-	private List<Course> courses = new ArrayList<Course>();
+	private ArrayList<Student> students = new ArrayList<Student>();
+	private ArrayList<Course> courses = new ArrayList<Course>();
 	
 	public Module(String moduleName, String moduleID) {
 		this.moduleName = moduleName;
