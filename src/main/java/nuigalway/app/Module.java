@@ -1,15 +1,26 @@
 package nuigalway.app;
 
+<<<<<<< HEAD
 import java.util.ArrayList;
 import nuigalway.app.Course;
 import nuigalway.app.Student;
+=======
+import java.util.*;
+import nuigalway.app.Student;
+import nuigalway.app.Course;
+>>>>>>> 27a2784277e0c55181985c37ca390ef1f6fc2c7e
 
 public class Module
 {
 	private String moduleName;
 	private String moduleID;
+<<<<<<< HEAD
 	private ArrayList<Student> students = new ArrayList<Student>();
 	private ArrayList<Course> courses = new ArrayList<Course>();
+=======
+	private List<Student> students = new ArrayList<Student>();
+	private List<Course> courses = new ArrayList<Course>();
+>>>>>>> 27a2784277e0c55181985c37ca390ef1f6fc2c7e
 	
 	public Module(String moduleName, String moduleID) {
 		this.moduleName = moduleName;
